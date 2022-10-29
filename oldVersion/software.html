@@ -1,0 +1,255 @@
+
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>View My Work</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="work">
+    <h1 class="lg-heading">
+      My
+      <span class="text-secondary">Work</span>
+    </h1>
+    <h2 class="sm-heading">
+      Check out some of my projects...
+    </h2>
+
+    <!-- dropdown list with items  -->
+<!--
+
+
+<div class="slideshow-container">
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="img/all.svg" class="imgthumb">
+
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="img/research.svg" class="imgthumb">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="img/data.svg" class="imgthumb">
+  </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 8</div>
+      <img src="img/games.svg" class="imgthumb">
+    </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="img/competitions.svg" class="imgthumb">
+      </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="img/web.svg" class="imgthumb">
+        </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="img/hardware.svg" class="imgthumb">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="img/software.svg" class="imgthumb">
+      </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ -->
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <a href="work.html">
+          <img class="demo cursor" src="img/all.svg" style="width:100%" onclick="currentSlide(1)" alt="All Projects">
+        </a>
+      </div>
+      <div class="column">
+        <a href="research.html">
+          <img class="demo cursor" src="img/research.svg" style="width:100%" onclick="currentSlide(2)" alt="Research">
+      </a></div>
+      <div class="column">
+        <a href="data.html">
+          <img class="demo cursor" src="img/data.svg" style="width:100%" onclick="currentSlide(3)" alt="Data Science">
+      </a></div>
+      <div class="column">
+        <a href="games.html">
+          <img class="demo cursor" src="img/games.svg" style="width:100%" onclick="currentSlide(4)"
+          alt="Games">
+      </a></div>
+      <div class="column">
+        <a href="competitions.html">
+        <img class="demo cursor" src="img/competitions.svg" style="width:100%" onclick="currentSlide(5)" alt="Competitions">
+      </a></div>
+      <div class="column">
+        <a href="web.html">
+          <img class="demo cursor" src="img/web.svg" style="width:100%" onclick="currentSlide(6)" alt="WebDev">
+      </a></div>
+      <div class="column">
+        <a href="hardware.html">
+        <img class="demo cursor" src="img/hardware.svg" style="width:100%" onclick="currentSlide(7)" alt="Hardware">
+      </a></div>
+      <div class="column">
+        <a href="software.html">
+        <img class="demo cursor" src="img/software.svg" style="width:100%" onclick="currentSlide(8)" alt="Software">
+      </a></div>
+    </div>
+
+</div>
+<br>
+
+<!-- The dots/circles -->
+<!-- <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div> -->
+
+    <!-- dropdown list ends here-->
+
+    <div class="projects">
+      <div class="item">
+        <a href="https://github.com/Nijaoui-Wassim/Plotting-in-the-Nth-dimension">
+          <img src="img/projects/project8.gif" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/Plotting-in-the-Nth-dimension" class="btn-light">
+          <i class="fas fa-eye"></i> <b>Plotting higher dimensions</b> <br>Plot complex datasets<br>
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/Plotting-in-the-Nth-dimension" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Whatsapp-Bot">
+              <img src="img/projects/project4.jpg" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Whatsapp-Bot" class="btn-light">
+              <i class="fas fa-eye"></i><b> Whatsapp-Bot</b> <br> Bot chat using WhatsApp
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Whatsapp-Bot" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Omrika">
+              <img src="img/projects/gif.gif" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijoaoui-Wassim/Omrika" class="btn-light">
+              <i class="fas fa-eye"></i> <b> Omrika</b> <br> AI powered Gallery
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Omrika" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Citations-finder">
+              <img src="img/projects/project13.png" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Citations-finder" class="btn-light">
+              <i class="fas fa-eye"></i> <b>Citations-finder</b> <br> Find citations from papers
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Citations-finder" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+<div class="item">
+  <a href="">
+    <img src="img/projects/project1.jpg" alt="Project" width="300" height="250">
+  </a>
+  <a href="" class="btn-light">
+    <i class="fas fa-eye"></i> <b>Company Guide using C#</b> <br> welcoming guide form doc to software
+  </a>
+  <a href="" class="btn-dark">
+    <i class="fab fa-github"></i> Github
+  </a>
+</div>
+
+<div class="item">
+  <a href="https://github.com/Nijaoui-Wassim/Coding-challenges">
+    <img src="img/projects/project24.png" alt="Project" width="300" height="250">
+  </a>
+  <a href="https://github.com/Nijaoui-Wassim/Coding-challenges" class="btn-light">
+    <i class="fas fa-eye"></i> <b>Coding Challenges</b> <br> Coding challenges using different languages
+  </a>
+  <a href="https://github.com/Nijaoui-Wassim/Coding-challenges" class="btn-dark">
+    <i class="fab fa-github"></i> Github
+  </a>
+</div>
+
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2022
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

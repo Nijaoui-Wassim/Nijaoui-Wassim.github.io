@@ -1,0 +1,459 @@
+
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>View My Work</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="work">
+    <h1 class="lg-heading">
+      My
+      <span class="text-secondary">Work</span>
+    </h1>
+    <h2 class="sm-heading">
+      Check out some of my projects...
+    </h2>
+
+    <!-- dropdown list with items  -->
+<!--
+
+
+<div class="slideshow-container">
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="img/all.svg" class="imgthumb">
+
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="img/research.svg" class="imgthumb">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="img/data.svg" class="imgthumb">
+  </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 8</div>
+      <img src="img/games.svg" class="imgthumb">
+    </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="img/competitions.svg" class="imgthumb">
+      </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="img/web.svg" class="imgthumb">
+        </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="img/hardware.svg" class="imgthumb">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="img/software.svg" class="imgthumb">
+      </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ -->
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <a href="work.html">
+          <img class="demo cursor" src="img/all.svg" style="width:100%" onclick="currentSlide(1)" alt="All Projects">
+        </a>
+      </div>
+      <div class="column">
+        <a href="research.html">
+          <img class="demo cursor" src="img/research.svg" style="width:100%" onclick="currentSlide(2)" alt="Research">
+      </a></div>
+      <div class="column">
+        <a href="data.html">
+          <img class="demo cursor" src="img/data.svg" style="width:100%" onclick="currentSlide(3)" alt="Data Science">
+      </a></div>
+      <div class="column">
+        <a href="games.html">
+          <img class="demo cursor" src="img/games.svg" style="width:100%" onclick="currentSlide(4)"
+          alt="Games">
+      </a></div>
+      <div class="column">
+        <a href="competitions.html">
+        <img class="demo cursor" src="img/competitions.svg" style="width:100%" onclick="currentSlide(5)" alt="Competitions">
+      </a></div>
+      <div class="column">
+        <a href="web.html">
+          <img class="demo cursor" src="img/web.svg" style="width:100%" onclick="currentSlide(6)" alt="WebDev">
+      </a></div>
+      <div class="column">
+        <a href="hardware.html">
+        <img class="demo cursor" src="img/hardware.svg" style="width:100%" onclick="currentSlide(7)" alt="Hardware">
+      </a></div>
+      <div class="column">
+        <a href="software.html">
+        <img class="demo cursor" src="img/software.svg" style="width:100%" onclick="currentSlide(8)" alt="Software">
+      </a></div>
+    </div>
+
+</div>
+<br>
+
+<!-- The dots/circles -->
+<!-- <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div> -->
+
+    <!-- dropdown list ends here-->
+
+    <div class="projects">
+      <div class="item">
+        <a href="https://github.com/Nijaoui-Wassim/Plotting-in-the-Nth-dimension">
+          <img src="img/projects/project8.gif" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/Plotting-in-the-Nth-dimension" class="btn-light">
+          <i class="fas fa-eye"></i> <b>Plotting higher dimensions</b> <br>Plot complex datasets<br>
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/Plotting-in-the-Nth-dimension" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Jane-Street-Market-Predictions">
+              <img src="img/projects/project9.png" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Jane-Street-Market-Predictions" class="btn-light">
+              <i class="fas fa-eye"></i> <b>Market-Predictions</b> <br>Predict Market decisions
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Jane-Street-Market-Predictions" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/WatchOut">
+              <img src="img/projects/project10.png" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/WatchOut" class="btn-light">
+              <i class="fas fa-eye"></i> <b>WatchOut</b> <br>Traffic violation detector
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/WatchOut" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Whatsapp-Bot">
+              <img src="img/projects/project4.jpg" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Whatsapp-Bot" class="btn-light">
+              <i class="fas fa-eye"></i><b> Whatsapp-Bot</b> <br> Bot chat using WhatsApp
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Whatsapp-Bot" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Omrika">
+              <img src="img/projects/gif.gif" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijoaoui-Wassim/Omrika" class="btn-light">
+              <i class="fas fa-eye"></i> <b> Omrika</b> <br> AI powered Gallery
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Omrika" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Flappy-Birds">
+              <img src="img/projects/project7.gif" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Flappy-Birds" class="btn-light">
+              <i class="fas fa-eye"></i> <b>Flappy-Birds</b> <br>Version of Flappy-Birds
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Flappy-Birds" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Space-Invaders">
+              <img src="img/projects/project6.gif" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Space-Invaders" class="btn-light">
+              <i class="fas fa-eye"></i> <b>Space-Invaders</b> <br>Version of Space-Invaders
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Space-Invaders" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Tic-Tac-Toe">
+              <img src="img/projects/project5.gif" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Tic-Tac-Toe" class="btn-light">
+              <i class="fas fa-eye"></i><b> Tic-Tac-Toe</b> <br>Version of Tic-Tac-Toe
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Tic-Tac-Toe" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/PositiveVibes">
+              <img src="img/projects/project11.png" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/PositiveVibes" class="btn-light">
+              <i class="fas fa-eye"></i> <b>PositiveVibes</b> <br>Auto replier to depressed posts
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/PositiveVibes" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Ticket-No-Ticket">
+              <img src="img/projects/project12.jpg" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Ticket-No-Ticket" class="btn-light">
+              <i class="fas fa-eye"></i> <b>Ticket-No-Ticket</b> <br>Traffic assistance
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Ticket-No-Ticket" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Citations-finder">
+              <img src="img/projects/project13.png" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Citations-finder" class="btn-light">
+              <i class="fas fa-eye"></i> <b>Citations-finder</b> <br> Find citations from papers
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Citations-finder" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+          <a href="https://github.com/Nijaoui-Wassim/Exploring-Credit-Cards-Costumers-dataset">
+              <img src="img/projects/project14.png" alt="Project" width="300" height="250">
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Exploring-Credit-Cards-Costumers-dataset" class="btn-light">
+              <i class="fas fa-eye"></i> <b>Exploring Credit-Cards-Costumers dataset</b><br>Get insights from the dataset
+          </a>
+          <a href="https://github.com/Nijaoui-Wassim/Exploring-Credit-Cards-Costumers-dataset" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+          </a>
+      </div>
+      <div class="item">
+        <a href="https://github.com/darealstyl/TeamJ-soen341project2022">
+          <img src="img/projects/project15.png" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://github.com/darealstyl/TeamJ-soen341project2022" class="btn-light">
+          <i class="fas fa-eye"></i> <b>Shopping Website</b> <br> React/Django powered shopping website
+        </a>
+        <a href="https://github.com/darealstyl/TeamJ-soen341project2022" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://github.com/Nijaoui-Wassim/">
+          <img src="img/projects/project16.png" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/" class="btn-light">
+          <i class="fas fa-eye"></i> <b>AlloGenie</b> <br>Startup - React/Django powered services website
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+
+
+      <div class="item">
+        <a href="https://github.com/Nijaoui-Wassim/">
+          <img src="img/projects/project17.png" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/" class="btn-light">
+          <i class="fas fa-eye"></i> <b>Jobitou</b> <br> Startup - React/Django powered services website
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://github.com/Nijaoui-Wassim/">
+          <img src="img/projects/project18.png" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/" class="btn-light">
+          <i class="fas fa-eye"></i> <b>HybridNet for Semantic Segmentation</b> <br> Research - Semantic Segmentation Research Project
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+
+
+      <div class="item">
+        <a href="https://github.com/Nijaoui-Wassim/Predicting_Intervals_for_anomaly_detection">
+          <img src="img/projects/project19.png" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/Predicting_Intervals_for_anomaly_detection" class="btn-light">
+          <i class="fas fa-eye"></i> <b>Anomaly Detection for Energy Disaggregation</b> <br> Research - Energy Disaggregation Research
+          Project
+        </a>
+        <a href="https://github.com/Nijaoui-Wassim/Predicting_Intervals_for_anomaly_detection" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.concordia.ca/cuevents/offices/provost/fourth-space/programming/2021/06/decolonizing-light.html">
+          <img src="img/projects/project20.png" alt="Project" width="300" height="250">
+        </a>
+        <a href="https://www.concordia.ca/cuevents/offices/provost/fourth-space/programming/2021/06/decolonizing-light.html" class="btn-light">
+          <i class="fas fa-eye"></i> <b>Building an Air Quality Device</b> <br> Research - Air Quality Device Research
+          Project
+        </a>
+        <a href="https://www.concordia.ca/cuevents/offices/provost/fourth-space/programming/2021/06/decolonizing-light.html" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+
+
+            <div class="item">
+              <a href="https://github.com/Nijaoui-Wassim/kuzushiji-recognition">
+                <img src="img/projects/project21.png" alt="Project" width="300" height="250">
+              </a>
+              <a href="https://github.com/Nijaoui-Wassim/kuzushiji-recognition"
+                class="btn-light">
+                <i class="fas fa-eye"></i> <b>Kuzushiji Recognition (Kaggle Challenge)</b> <br> Kaggle Challenge - Letter Recognition
+                Project
+              </a>
+              <a href="https://github.com/Nijaoui-Wassim/kuzushiji-recognition"
+                class="btn-dark">
+                <i class="fab fa-github"></i> Github
+              </a>
+            </div>
+
+
+
+                  <div class="item">
+                    <a href="https://www.youtube.com/watch?v=_-vLRq0EABw&ab_channel=TechBubble">
+                      <img src="img/projects/project22.png" alt="Project" width="300" height="250">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=_-vLRq0EABw&ab_channel=TechBubble"
+                      class="btn-light">
+                      <i class="fas fa-eye"></i> <b>SmartBin (1st place)</b> <br> Hackathon - using Raspberry Pi and React/Django
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=_-vLRq0EABw&ab_channel=TechBubble"
+                      class="btn-dark">
+                      <i class="fab fa-github"></i> Github
+                    </a>
+                  </div>
+<div class="item">
+  <a href="">
+    <img src="img/projects/project1.jpg" alt="Project" width="300" height="250">
+  </a>
+  <a href="" class="btn-light">
+    <i class="fas fa-eye"></i> <b>Company Guide using C#</b> <br> welcoming guide form doc to software
+  </a>
+  <a href="" class="btn-dark">
+    <i class="fab fa-github"></i> Github
+  </a>
+</div>
+
+<div class="item">
+  <a href="">
+    <img src="img/projects/project23.JPG" alt="Project" width="300" height="250">
+  </a>
+  <a href="" class="btn-light">
+    <i class="fas fa-eye"></i> <b>a miniture fountain</b> <br> transformed coffee machine to a water fountain
+  </a>
+  <a href="" class="btn-dark">
+    <i class="fab fa-github"></i> Github
+  </a>
+</div>
+
+<div class="item">
+  <a href="https://github.com/Nijaoui-Wassim/Coding-challenges">
+    <img src="img/projects/project24.png" alt="Project" width="300" height="250">
+  </a>
+  <a href="https://github.com/Nijaoui-Wassim/Coding-challenges" class="btn-light">
+    <i class="fas fa-eye"></i> <b>Coding Challenges</b> <br> Coding challenges using different languages
+  </a>
+  <a href="https://github.com/Nijaoui-Wassim/Coding-challenges" class="btn-dark">
+    <i class="fab fa-github"></i> Github
+  </a>
+</div>
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2022
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
