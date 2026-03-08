@@ -1,205 +1,792 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>Home - Wassim Nijaoui</title>
+        <title>Wassim Nijaoui | AI/ML Engineer</title>
         <link rel="icon" type="image/x-icon" href="assets/img/avatars/c-square.svg">
-        <meta name="description" content="Personal Portfolio">
+        <meta
+            name="description"
+            content="Personal website of Wassim Nijaoui, AI/ML engineer working across production GenAI systems, backend engineering, research, and startups."
+        >
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=bc6e88d3ecb03ba4bdc8c098422fc485">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
         <link rel="stylesheet" href="assets/css/styles.min.css?h=71b01859ce71e294170b5207c21d6962">
+        <link rel="stylesheet" href="assets/css/custom.css">
     </head>
-    <body>
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+    <body class="portfolio-home">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar">
             <div class="container">
-                <a class="navbar-brand logo" href="#">Wassim Nijaoui</a>
+                <a class="navbar-brand logo" href="index.html">Wassim Nijaoui</a>
                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav">
                     <span class="visually-hidden">Toggle navigation</span>
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
+                            <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Toggle color theme">
+                                <span class="theme-toggle-track" aria-hidden="true">
+                                    <span class="theme-toggle-thumb"></span>
+                                </span>
+                                <span class="theme-toggle-label" data-theme-label>Light</span>
+                            </button>
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="cv.html">CV</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects-grid-cards.html">Projects</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="projects-with-sidebar.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="project-page.html">Project Page</a>
-                        </li> -->
-
                     </ul>
                 </div>
             </div>
         </nav>
-        <main class="page lanidng-page">
-            <section class="portfolio-block block-intro">
-                <div class="container">
-                    <div class="avatar" style="background-image:url(&quot;assets/img/avatars/me.png?h=a6dc828db199f191db08f91d9df2b728&quot;);">
 
-                    </div>
-                        <div class="about-me">
-                            <p>Hello! I'm <strong>Wassim Nijaoui</strong>. As a Software Engineering student at Concordia University, I have cultivated a robust foundation in technology, previously contributing to AI-based projects and full-stack development at notable companies like Ciena, Cisco, and Ericsson. My experiences also extend to research assistant roles, where I explored innovative solutions in software development and AI. I am deeply passionate about leveraging technology to address complex challenges and drive progress.</p>
-                            <a class="btn btn-outline-primary" role="button" href="cv.html">Learn More</a>
-                            <!-- <a class="btn btn-outline-primary" role="button" href="#">Contact me</a> -->
-                        </div>
-                </div>
-            </section>
-
-            <section class="portfolio-block project">
+        <main class="page landing-page">
+            <section class="hero-section">
                 <div class="container">
-                    
-                    <div class="heading"><h2>Latest Project: Social Media Analysis for Market Predictions</h2></div>
-                    
-                    <div class="image" style="background-image:url(&quot;assets/projects/project31.png?h=e138a8bfe4ed72819d3bbf626d732745&quot;);"></div>
-                    <div class="row">
-                        <div class="col-12 col-md-6 offset-md-1 info">
-                            <h3>Description</h3>
-                            <p>Using 4 different AI models, the idea is to scan what people are discussing about a given company X for the past y days.</p>
-                            <p>Assumption: people talking in a positive or negative way in general about a company X can influence people to trade it.</p>
-                        </div>
-                        <div class="col-12 col-md-3 offset-md-1 meta">
-                            <div class="tags">
-                                <span class="meta-heading">Tags</span>
-                                <a href="https://github.com/Nijaoui-Wassim/Market_Trading_Analysis">Github</a>
-                                <span class="meta-heading">Date</span>
-                                <span>30-10-2022</span>
+                    <div class="hero-panel fade-in">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-7 hero-copy">
+                                <span class="eyebrow">AI/ML Engineer / Backend Systems / Applied Research</span>
+                                <h1>Building production AI systems and advancing research.</h1>
+                                <p class="lead">
+                                    I am Wassim Nijaoui, currently working remotely as a Senior AI Engineer at XCoding Solutions. My recent
+                                    experience spans production RAG systems, knowledge-graph and ingestion-based chatbots, Java
+                                    microservices, anomaly detection, research engineering, and startup product work across XCoding Solutions,
+                                    Ericsson, CGI, Ciena, Cisco, Concordia, and my own ventures.
+                                </p>
+                                <div class="hero-actions">
+                                    <a class="btn btn-brand" href="cv.html">Open CV</a>
+                                    <a class="btn btn-ghost" href="#experience">See Experience</a>
+                                    <a class="btn btn-ghost" href="mailto:wassimnijaoui@gmail.com">Email</a>
+                                </div>
+                                <div class="hero-meta">
+                                    <div class="mini-stat">
+                                        <span class="label">Current role</span>
+                                        <strong>Senior AI Engineer at XCoding Solutions</strong>
+                                    </div>
+                                    <div class="mini-stat">
+                                        <span class="label">Previously at</span>
+                                        <strong>Ericsson, CGI, Cisco, Ciena</strong>
+                                    </div>
+                                    <div class="mini-stat">
+                                        <span class="label">Location</span>
+                                        <strong>Germany / Remote</strong>
+                                    </div>
+                                </div>
+                                <div class="company-marquee" aria-label="Companies and institutions">
+                                    <span class="company-mark" data-monogram="ER">Ericsson</span>
+                                    <span class="company-mark" data-monogram="XC">XCoding Solutions</span>
+                                    <span class="company-mark" data-monogram="CG">CGI</span>
+                                    <span class="company-mark" data-monogram="CI">Cisco</span>
+                                    <span class="company-mark" data-monogram="CN">Ciena</span>
+                                    <span class="company-mark" data-monogram="CU">Concordia</span>
+                                    <span class="company-mark" data-monogram="TL">Teluq</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 hero-visual fade-in fade-delay-1">
+                                <div class="portrait-card">
+                                    <img
+                                        id="hero-portrait"
+                                        src="assets/img/avatars/me_img_1.jpeg"
+                                        alt="Portrait of Wassim Nijaoui"
+                                        data-images="assets/img/avatars/me_img_1.jpeg,assets/img/avatars/me_img_2.jpeg,assets/img/avatars/me_img_3.jpeg"
+                                    >
+                                </div>
+                                <div class="floating-note">
+                                    <span class="floating-label">Right now</span>
+                                    <span class="floating-value">Production GenAI, semantic search, reranking, and reusable AI components.</span>
+                                </div>
+                                <div class="floating-badge">
+                                    <span class="floating-label">Snapshot</span>
+                                    <span class="floating-value">XCoding Solutions now, two Ericsson chapters, one year at CGI, one year at Ciena, and startup work on the side.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-                <br/>
 
-
-
-            <section class="portfolio-block photography">
+            <section class="section-block">
                 <div class="container">
-                    <div class="row g-0">
-                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                            <a href="#">
-                                <img class="img-fluid image img_padding" src="assets/projects/project8.gif">
-                            </a>
+                    <div class="section-panel fade-in fade-delay-1">
+                        <div class="section-intro">
+                            <div>
+                                <span class="section-kicker">Profile</span>
+                                <h2 class="section-title">Overview</h2>
+                            </div>
+                            <p class="section-description">
+                                My work sits at the intersection of production AI, backend engineering, applied research, and product
+                                development, with experience across telecom, academia, and startup environments.
+                            </p>
                         </div>
-                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                            <a href="#">
-                                <img class="img-fluid image" src="assets/projects/project16.png">
-                            </a>
-                        </div>
-                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                            <a href="#">
-                                <!-- <img class="img-fluid image" src="assets/img/tech/image4.jpg?h=e138a8bfe4ed72819d3bbf626d732745" style="margin: 1px;"> -->
-                                <img class="img-fluid image" src="assets/projects/project17.png">
-                            </a>
+                        <div class="pillar-grid">
+                            <article class="pillar-card">
+                                <div class="pill-icon"><i class="icon ion-ios-color-wand-outline"></i></div>
+                                <h3>Production GenAI systems</h3>
+                                <p>RAG pipelines, retrievers, rerankers, validation flows, and reusable LangChain components.</p>
+                            </article>
+                            <article class="pillar-card">
+                                <div class="pill-icon"><i class="icon ion-code-working"></i></div>
+                                <h3>Backend and platform work</h3>
+                                <p>Spring Boot microservices, REST APIs, Kafka systems, monitoring automation, and ML-enabled operations.</p>
+                            </article>
+                            <article class="pillar-card">
+                                <div class="pill-icon"><i class="icon ion-ios-flask-outline"></i></div>
+                                <h3>Research to implementation</h3>
+                                <p>From university research and published work to shipped prototypes and production-facing tools.</p>
+                            </article>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="portfolio-block call-to-action border-bottom">
+
+            <section class="section-block" id="experience">
                 <div class="container">
-                    <div class="d-flex justify-content-center align-items-center content">
-                        <h3>Like what you see?</h3>
-                        <a href="projects-grid-cards.html" class="btn btn-outline-primary btn-lg" type="button">See all projects</a>
+                    <div class="section-panel fade-in fade-delay-2">
+                        <div class="section-intro">
+                            <div>
+                                <span class="section-kicker">Experience</span>
+                                <h2 class="section-title">Experience</h2>
+                            </div>
+                            <p class="section-description">
+                                Professional, startup, and research work organized in separate tracks for easier navigation.
+                            </p>
+                        </div>
+
+                        <ul class="nav experience-pills" id="experience-tabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link active"
+                                    id="industry-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#industry-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="industry-pane"
+                                    aria-selected="true"
+                                >
+                                    Industry
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link"
+                                    id="startup-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#startup-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="startup-pane"
+                                    aria-selected="false"
+                                >
+                                    Startups
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link"
+                                    id="research-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#research-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="research-pane"
+                                    aria-selected="false"
+                                >
+                                    Research
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="industry-pane" role="tabpanel" aria-labelledby="industry-tab">
+                                <div class="tab-card-grid">
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>Senior AI Engineer</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">XCoding Solutions</span>
+                                                    <span class="time-tag">10/2025 - Present</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Current</span>
+                                        </div>
+                                        <div class="timeline-brand">
+                                            <span class="company-mark" data-monogram="XC">XCoding Solutions</span>
+                                        </div>
+                                        <p class="meta-line">Remote full-time role focused on LLM systems, multimodal Qwen pipelines, LangChain orchestration, and applied model development.</p>
+                                        <ul class="detail-list">
+                                            <li>Designed and delivered end-to-end chatbot systems using rule-based logic, knowledge-graph reasoning, and ingestion-driven retrieval pipelines.</li>
+                                            <li>Built LLM workflows around the latest Qwen models, including Qwen VL, for text, multimodal understanding, and task-specific assistant behavior.</li>
+                                            <li>Used LangChain to structure retrieval, tool orchestration, prompt pipelines, and production-ready chatbot flows.</li>
+                                            <li>Created a proctored cheating-detection system and developed off-screen gaze detection models from scratch for monitoring and integrity use cases, with over 90% accuracy.</li>
+                                            <li>Trained, fine-tuned, and adapted models against internal data and business requirements instead of relying only on generic base models.</li>
+                                            <li>Worked across system design, model selection, pipeline integration, and practical deployment of AI features into usable products.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>Qwen</span>
+                                            <span>Qwen VL</span>
+                                            <span>LLMs</span>
+                                            <span>LangChain</span>
+                                            <span>Knowledge Graphs</span>
+                                            <span>Fine-Tuning</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>Ericsson</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Ericsson</span>
+                                                    <span class="time-tag">Two roles</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">1 year, 2 months</span>
+                                        </div>
+                                        <div class="timeline-brand">
+                                            <span class="company-mark" data-monogram="ER">Ericsson</span>
+                                        </div>
+                                        <p class="meta-line">Two separate Ericsson chapters: one current remote AI/ML role and one earlier internship.</p>
+                                        <div class="timeline-subrole">
+                                            <h4>AI/ML Engineer, Remote</h4>
+                                            <span class="subrole-meta">09/2025 - Present</span>
+                                            <ul class="detail-list">
+                                                <li>Designed production-scale user-facing RAG-based GenAI systems and continued supporting them after rollout.</li>
+                                                <li>Built agentic and multi-agent workflows for retrieval, reranking, validation, and response orchestration.</li>
+                                                <li>Improved semantic search depth and relevance through embedding optimization and retriever tuning.</li>
+                                                <li>Delivered custom reusable LangChain AI components that accelerated prototyping and development.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="timeline-subrole">
+                                            <h4>AI/ML and Full-Stack Engineer Intern</h4>
+                                            <span class="subrole-meta">09/2023 - 03/2024</span>
+                                            <ul class="detail-list">
+                                                <li>Engineered an anomaly detection system to identify failing Kubernetes pods and microservices in real time.</li>
+                                                <li>Improved preprocessing speed by 200 percent and reduced model training time by 50 percent for the Failure Prediction PoC.</li>
+                                                <li>Managed an Agile-based project flow and implemented tests and visualizations.</li>
+                                                <li>Reduced data dimensionality by 40 percent while contributing to the product-facing implementation.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="company-stack">
+                                            <span>RAG</span>
+                                            <span>LangChain</span>
+                                            <span>Kubernetes</span>
+                                            <span>Anomaly Detection</span>
+                                            <span>Full-Stack</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>Software Engineer</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">CGI for Bell Canada</span>
+                                                    <span class="time-tag">09/2024 - 09/2025</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">1 year</span>
+                                        </div>
+                                        <div class="timeline-brand">
+                                            <span class="company-mark" data-monogram="CG">CGI</span>
+                                        </div>
+                                        <p class="meta-line">Backend systems and ML-enabled operational tooling for telecom infrastructure.</p>
+                                        <ul class="detail-list">
+                                            <li>Built Java 8 and Java 21 Spring Boot microservices for low-latency telecom systems.</li>
+                                            <li>Maintained Kafka and REST services handling 20M plus daily requests under TMF standards.</li>
+                                            <li>Automated KPI monitoring and reduced recurring team effort by 80 percent per day.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>Java</span>
+                                            <span>Spring Boot</span>
+                                            <span>Kafka</span>
+                                            <span>Microservices</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>Software Engineer Intern</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Cisco</span>
+                                                    <span class="time-tag">04/2023 - 09/2023</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Internship / 6 months</span>
+                                        </div>
+                                        <div class="timeline-brand">
+                                            <span class="company-mark" data-monogram="CI">Cisco</span>
+                                        </div>
+                                        <p class="meta-line">Cisco internship from April 2023 through September 2023.</p>
+                                        <ul class="detail-list">
+                                            <li>Included as part of the core company timeline between Ciena and the first Ericsson internship.</li>
+                                            <li>Ready for project scope, stack, and outcome details in the next update.</li>
+                                        </ul>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>AI/ML and Full-Stack Engineer Intern</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Ciena</span>
+                                                    <span class="time-tag">04/2022 - 04/2023</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Internship / 1 year</span>
+                                        </div>
+                                        <div class="timeline-brand">
+                                            <span class="company-mark" data-monogram="CN">Ciena</span>
+                                        </div>
+                                        <p class="meta-line">Internship combining AI/ML delivery with full-stack internal tooling and scalable analytics systems.</p>
+                                        <ul class="detail-list">
+                                            <li>Created a meeting call analytics PoC integrated with AWS.</li>
+                                            <li>Built AI models that improved QA workflows by over 500 percent of time spent on calls.</li>
+                                            <li>Built product-facing interfaces and workflow integrations around the analytics platform.</li>
+                                            <li>Managed ingestion pipelines for thousands of calls at over 90 percent lower cost.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>AWS</span>
+                                            <span>Call Analytics</span>
+                                            <span>Explainable AI</span>
+                                            <span>Full-Stack</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>IT Support Specialist</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">CGI</span>
+                                                    <span class="time-tag">09/2018 - 01/2020</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">1 year 4 months</span>
+                                        </div>
+                                        <div class="timeline-brand">
+                                            <span class="company-mark" data-monogram="CG">CGI</span>
+                                        </div>
+                                        <p class="meta-line">Operational support role across remote and onsite environments with problem solving and automation work.</p>
+                                        <ul class="detail-list">
+                                            <li>Solved incidents and support requests at both level 1 and level 2.</li>
+                                            <li>Worked remotely and onsite to troubleshoot user and infrastructure problems.</li>
+                                            <li>Built automations that reduced repetitive support work and improved team efficiency.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>Support</span>
+                                            <span>Automation</span>
+                                            <span>L1</span>
+                                            <span>L2</span>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="startup-pane" role="tabpanel" aria-labelledby="startup-tab">
+                                <div class="tab-card-grid">
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>AlloGenie</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Startup Work</span>
+                                                    <span class="time-tag">2021 - Mid 2022</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Venture</span>
+                                        </div>
+                                        <p class="meta-line">Service marketplace platform connecting skilled workers with people looking for help on specific tasks.</p>
+                                        <ul class="detail-list">
+                                            <li>Built around matching skilled workers with users who needed help through video calls or arranged meetings on the platform.</li>
+                                            <li>Represents an early product-focused startup effort tied to marketplace and service matching workflows.</li>
+                                        </ul>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>InsightWearAI</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Startup Work</span>
+                                                    <span class="time-tag">2022 - 2024</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Venture</span>
+                                        </div>
+                                        <p class="meta-line">Assistive technology startup focused on helping visually challenged users live more independently and confidently.</p>
+                                        <ul class="detail-list">
+                                            <li>Led the startup and won more than 6 awards across competitions and innovation programs.</li>
+                                            <li>Created an AI-powered watch and necklace designed to help blind users navigate their surroundings.</li>
+                                            <li>Focused on affordable assistive technologies rather than premium inaccessible hardware.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>Founder-Led</span>
+                                            <span>Assistive AI</span>
+                                            <span>Wearables</span>
+                                            <span>6+ Awards</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>Parklive</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Startup Work</span>
+                                                    <span class="time-tag">2022 - 2023</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Venture</span>
+                                        </div>
+                                        <p class="meta-line">Assisted parking app for the Montreal area focused on parking discovery and sign interpretation.</p>
+                                        <ul class="detail-list">
+                                            <li>Helped users find the nearest available parking spot and understand parking signs more clearly.</li>
+                                            <li>My work focused mainly on route optimization and decision logic around parking discovery.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>Routing</span>
+                                            <span>Optimization</span>
+                                            <span>Mobility</span>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="research-pane" role="tabpanel" aria-labelledby="research-tab">
+                                <div class="tab-card-grid">
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>AI Researcher and Engineer, Air Quality Project</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Concordia University</span>
+                                                    <span class="time-tag">02/2021 - 07/2023</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Research and engineering</span>
+                                        </div>
+                                        <div class="timeline-brand">
+                                            <span class="company-mark" data-monogram="CU">Concordia</span>
+                                        </div>
+                                        <p class="meta-line">End-to-end air quality research platform spanning devices, embedded code, server systems, and deployment.</p>
+                                        <ul class="detail-list">
+                                            <li>Handled hardware including PCB design, case design, circuits, wiring, and the physical build of air quality monitors.</li>
+                                            <li>Designed system architecture for servers and AQ devices, including device-side code in C.</li>
+                                            <li>Deployed, monitored, and maintained the overall system over long-running research use.</li>
+                                            <li>Designed and deployed more than 20 high-resolution air-quality monitors that stayed operational for over 4 years.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>Hardware</span>
+                                            <span>PCB Design</span>
+                                            <span>C</span>
+                                            <span>Deployment</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>NSERC Project, Semantic Segmentation on Road Scenes</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Concordia University</span>
+                                                    <span class="time-tag">04/2021 - 09/2021</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">NSERC 2021</span>
+                                        </div>
+                                        <ul class="detail-list">
+                                            <li>Developed a multi-model approach for semantic segmentation on road scenes.</li>
+                                            <li>Worked on experimentation and model design for perception tasks in driving-related imagery.</li>
+                                        </ul>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>NSERC Project, Object Counting and Detection</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Teluq University</span>
+                                                    <span class="time-tag">04/2022 - 09/2022</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">NSERC 2022</span>
+                                        </div>
+                                        <ul class="detail-list">
+                                            <li>Modified DETR and fine-tuned it for object counting and detection use cases.</li>
+                                            <li>Focused on improving a research model for the actual task rather than only benchmarking it.</li>
+                                        </ul>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>NSERC Project, Anomaly Detection for Smart Homes</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Concordia University</span>
+                                                    <span class="time-tag">04/2024 - 09/2024</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">NSERC 2024</span>
+                                        </div>
+                                        <ul class="detail-list">
+                                            <li>Worked on anomaly detection in smart-home settings with data augmentation in the NILM domain.</li>
+                                            <li>This work feeds directly into the ICONIP 2024 publication highlighted elsewhere on the site.</li>
+                                        </ul>
+                                    </article>
+
+                                    <article class="timeline-card">
+                                        <div class="timeline-head">
+                                            <div>
+                                                <h3>Research Collaboration with Desjardins, Occupancy Estimation</h3>
+                                                <div class="timeline-meta">
+                                                    <span class="org-tag">Concordia University</span>
+                                                    <span class="time-tag">01/2025 - 03/2026</span>
+                                                </div>
+                                            </div>
+                                            <span class="status-tag">Research collaboration</span>
+                                        </div>
+                                        <ul class="detail-list">
+                                            <li>Worked on occupancy estimation from thermal imagery, air quality signals, data engineering, and system design.</li>
+                                            <li>Combined sensing, pipelines, and model work to estimate overall occupancy in practical settings.</li>
+                                        </ul>
+                                        <div class="company-stack">
+                                            <span>Thermal Images</span>
+                                            <span>Data Engineering</span>
+                                            <span>System Design</span>
+                                            <span>Occupancy</span>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="portfolio-block skills">
+
+            <section class="section-block" id="academics">
                 <div class="container">
-                    <!-- Start: portfolio heading -->
-                    <div class="heading"><h2>Special Skills</h2></div>
-                    <!-- End: portfolio heading -->
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card special-skill-item border-0">
-                                <div class="card-header bg-transparent border-0">
-                                    <i class="icon ion-ios-star-outline"></i>
-                                </div>
-                                <div class="card-body">
-                                    <h3 class="card-title">AI & Machine Learning</h3>
-                                    <p class="card-text">Using Pytorch and Tensorflow for AI.</p>
-                                    <p class="card-text">Can develop statistical Models and approaches as well</p>
-                                </div>
+                    <div class="section-panel fade-in">
+                        <div class="section-intro">
+                            <div>
+                                <span class="section-kicker">Academic Experience</span>
+                                <h2 class="section-title">Academic Experience</h2>
                             </div>
+                            <p class="section-description">
+                                Degrees, publication work, and academic milestones that support the broader engineering profile.
+                            </p>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card special-skill-item border-0">
-                                <div class="card-header bg-transparent border-0">
-                                    <i class="icon ion-ios-lightbulb-outline"></i>
-                                </div>
-                                <div class="card-body">
-                                    <h3 class="card-title">Software Development</h3>
-                                    <p class="card-text">Software Design</p>
-                                    <p class="card-text">Efficient and clean Code</p>
-                                    <p class="card-text">Good Documentation</p>
-                                </div>
-                            </div>
+                        <div class="cards-grid three">
+                            <article class="award-card">
+                                <span class="award-number">Master's Degree</span>
+                                <h3>Master of Applied Science<br>Artificial Intelligence</h3>
+                                <p>Concordia University, Montreal</p>
+                                <ul class="detail-list">
+                                    <li>Timeline: 01/2025 - 05/2026.</li>
+                                    <li>Focus: model compression for cloud and edge systems.</li>
+                                </ul>
+                            </article>
+                            <article class="award-card">
+                                <span class="award-number">Bachelor Degree</span>
+                                <h3>Bachelor of Engineering<br>Software Engineering</h3>
+                                <p>Concordia University, Montreal</p>
+                                <ul class="detail-list">
+                                    <li>Timeline: 01/2020 - 12/2024.</li>
+                                    <li>Award in Engineering Excellence.</li>
+                                </ul>
+                            </article>
+                            <article class="award-card">
+                                <span class="award-number">Publication</span>
+                                <h3>ICONIP 2024</h3>
+                                <p>Behavior-Driven Data Augmentation for NILM, published with Springer Nature.</p>
+                                <ul class="detail-list">
+                                    <li>Published during my undergraduate studies.</li>
+                                </ul>
+                            </article>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card special-skill-item border-0">
-                                <div class="card-header bg-transparent border-0">
-                                    <i class="icon ion-ios-gear-outline"></i>
-                                </div>
-                                <div class="card-body">
-                                    <h3 class="card-title">Full-Stack Development</h3>
-                                    <p class="card-text">Using React and Django</p>
-                                    <p class="card-text">I can also use other frameworks/languages</p>
-                                </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block" id="awards">
+                <div class="container">
+                    <div class="section-panel fade-in fade-delay-1">
+                        <div class="section-intro">
+                            <div>
+                                <span class="section-kicker">Awards and Recognition</span>
+                                <h2 class="section-title">Awards and Recognition</h2>
                             </div>
+                            <p class="section-description">
+                                Selected awards, competition results, and publication recognition.
+                            </p>
+                        </div>
+                        <div class="cards-grid four">
+                            <article class="award-card">
+                                <span class="award-number">Research Award</span>
+                                <h3>NSERC Undergraduate Student Research Award</h3>
+                                <p>Received 3 times: 2021, 2022, and 2024.</p>
+                            </article>
+                            <article class="award-card">
+                                <span class="award-number">Competition</span>
+                                <h3>Ferique Engineering Competition</h3>
+                                <p>3 awards listed in the current resume.</p>
+                            </article>
+                            <article class="award-card">
+                                <span class="award-number">Innovation</span>
+                                <h3>Gina Cody Innovation Fund</h3>
+                                <p>1st place, 3 times: 2022, 2023, and 2024.</p>
+                            </article>
+                            <article class="award-card">
+                                <span class="award-number">Publication</span>
+                                <h3>ICONIP 2024 Paper</h3>
+                                <p>Published work highlighted as part of both the academic and recognition profile.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block" id="featured-project">
+                <div class="container">
+                    <div class="section-panel fade-in fade-delay-2">
+                        <div class="section-intro">
+                            <div>
+                                <span class="section-kicker">Featured Project</span>
+                                <h2 class="section-title">Solar Site Feasibility - Multi-Agent PoC</h2>
+                            </div>
+                            <p class="section-description">
+                                A recent GenAI proof of concept that combines multi-agent orchestration, public-source research, permitting workflows, and scoring logic into a practical Go or No-Go solar feasibility tool.
+                            </p>
+                        </div>
+                        <div class="project-showcase">
+                            <article class="project-card">
+                                <img src="assets/projects/1758548669387.jpeg" alt="Solar Site Feasibility featured project image">
+                            </article>
+                            <article class="project-card project-detail">
+                                <span class="project-label">LangGraph, Streamlit, LLMs</span>
+                                <h3>Address-level feasibility scoring with modular AI agents</h3>
+                                <p>
+                                    Built as a Streamlit and LangGraph proof of concept, the system evaluates one or more addresses, runs independent agents for research and permitting, and can optionally layer in irradiance, economics, grid, risk, and web context before producing a final feasibility score and decision.
+                                </p>
+                                <ul class="detail-list">
+                                    <li>Uses LangGraph state orchestration so agents run independently and fan in to a shared scoring stage.</li>
+                                    <li>Generates human-readable justifications plus a professional permit checklist PDF.</li>
+                                    <li>Supports both deterministic heuristic scoring and LLM-assisted scoring for the final Go or No-Go recommendation.</li>
+                                </ul>
+                                <div class="company-stack">
+                                    <span>LangGraph</span>
+                                    <span>Streamlit</span>
+                                    <span>Multi-Agent AI</span>
+                                    <span>PDF Generation</span>
+                                </div>
+                                <div class="inline-links">
+                                    <a href="https://github.com/Nijaoui-Wassim/solar-site-feasibility-multi-agents" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                                    <a href="projects-grid-cards.html">View All Projects</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block">
+                <div class="container">
+                    <div class="section-panel fade-in fade-delay-2">
+                        <div class="section-intro">
+                            <div>
+                                <span class="section-kicker">Capabilities</span>
+                                <h2 class="section-title">Technical Focus</h2>
+                            </div>
+                            <p class="section-description">
+                                Core areas that best represent the work shown across the site.
+                            </p>
+                        </div>
+                        <div class="skill-grid">
+                            <article class="skill-card">
+                                <div class="skill-icon"><i class="icon ion-ios-color-wand-outline"></i></div>
+                                <h3>GenAI and LLM systems</h3>
+                                <p>Agentic AI, multi-agent workflows, fine-tuning, semantic search depth, OpenAI APIs, LangChain, and Langflow.</p>
+                            </article>
+                            <article class="skill-card">
+                                <div class="skill-icon"><i class="icon ion-code-working"></i></div>
+                                <h3>Backend and APIs</h3>
+                                <p>FastAPI, Flask, Django, Spring Boot, REST APIs, Swagger, and event-driven service design.</p>
+                            </article>
+                            <article class="skill-card">
+                                <div class="skill-icon"><i class="icon ion-ios-cloud-outline"></i></div>
+                                <h3>Cloud and MLOps</h3>
+                                <p>AWS, Docker, Kubernetes, Jenkins, GitHub Actions, CI/CD automation, and production support workflows.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block" id="contact">
+                <div class="container">
+                    <div class="contact-strip fade-in fade-delay-1">
+                        <span class="section-kicker">Contact</span>
+                        <h3>Open items remain for startup details and exact Cisco dates.</h3>
+                        <p class="section-note">
+                            The main structure is in place. The next update can focus on filling startup details and any additional public
+                            company or project context.
+                        </p>
+                        <div class="contact-grid">
+                            <article class="contact-card">
+                                <h3>Email</h3>
+                                <p><a href="mailto:wassimnijaoui@gmail.com">wassimnijaoui@gmail.com</a></p>
+                            </article>
+                            <article class="contact-card">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+491785980268">+49 178 5980268</a></p>
+                            </article>
+                            <article class="contact-card">
+                                <h3>Location</h3>
+                                <p>Germany</p>
+                            </article>
+                            <article class="contact-card">
+                                <h3>Links</h3>
+                                <p><a href="https://github.com/Nijaoui-Wassim">GitHub</a> / <a href="https://www.linkedin.com/in/wassim-nijaoui-335522153/">LinkedIn</a></p>
+                            </article>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
-        <section class="portfolio-block website gradient">
+
+        <footer class="page-footer">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-lg-5 offset-lg-1 text">
-                        <h3>Website Project</h3>
-                        <p>The goal behind this website is to showcase my Experience for now.</p>
-                        <p>Future task is to host new research models for people to test on one of the website's pages.</p>
-                    </div>
-                    <div class="col-md-12 col-lg-5">
-                        <div class="portfolio-laptop-mockup">
-                            <div class="screen">
-                                <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png?h=19ccc915f4703e4a2ebac4bf2082423d&quot;);"></div>
-                            </div>
-                            <div class="keyboard"></div>
+                <div class="footer-shell">
+                    <div class="footer-row">
+                        <p class="footer-copy">Wassim Nijaoui. AI/ML engineering, backend systems, research, and startups.</p>
+                        <div class="footer-links">
+                            <a href="#experience">Experience</a>
+                            <a href="#academics">Academics</a>
+                            <a href="#awards">Awards</a>
+                            <a href="projects-grid-cards.html">Projects</a>
+                            <a href="cv.html">CV</a>
+                        </div>
+                        <div class="footer-socials">
+                            <a href="https://github.com/Nijaoui-Wassim" aria-label="GitHub"><i class="icon ion-social-github"></i></a>
+                            <a href="https://www.linkedin.com/in/wassim-nijaoui-335522153/" aria-label="LinkedIn"><i class="icon ion-social-linkedin"></i></a>
+                            <a href="mailto:wassimnijaoui@gmail.com" aria-label="Email"><i class="icon ion-at"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <footer class="page-footer">
-            <div class="container">
-                <div class="links">
-                    <a href="#">About me</a>
-                    <a href="#">Contact me</a>
-                    <a href="#">Projects</a>
-                </div>
-                <!-- <div class="social-icons">
-                    <a href="#"><i class="icon ion-social-facebook"></i></a>
-                    <a href="#"><i class="icon ion-social-instagram-outline"></i></a>
-                    <a href="#"><i class="icon ion-social-twitter"></i></a>
-                </div> -->
-                <p id="copyright" property="dc:rights">&copy;
-                    <!-- <span property="dc:dateCopyrighted">2023</span> -->
-                    <span property="dc:publisher">Wassim Nijaoui</span>
-                  </p>
-            </div>
         </footer>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
         <script src="assets/js/script.min.js?h=93ba179fa52dd72fece483aba133cf5f"></script>
+        <script src="assets/js/theme-toggle.js"></script>
+        <script src="assets/js/home-portrait-rotator.js"></script>
     </body>
-    </html>
+</html>

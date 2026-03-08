@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -10,23 +10,32 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
         <link rel="stylesheet" href="assets/css/styles.min.css?h=71b01859ce71e294170b5207c21d6962">
+        <link rel="stylesheet" href="assets/css/custom.css">
     </head>
-    <body>
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+    <body class="portfolio-projects">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar">
             <div class="container">
-                <a class="navbar-brand logo" href="#">Wassim Nijaoui</a>
+                <a class="navbar-brand logo" href="index.html">Wassim Nijaoui</a>
                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav">
                     <span class="visually-hidden">Toggle navigation</span>
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#academics">Academics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#awards">Awards</a></li>
                         <li class="nav-item"><a class="nav-link active" href="projects-grid-cards.html">Projects</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="projects-with-sidebar.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="project-page.html">Project Page</a></li> -->
-                        
+                        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                        <li class="nav-item">
+                            <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Toggle color theme">
+                                <span class="theme-toggle-track" aria-hidden="true">
+                                    <span class="theme-toggle-thumb"></span>
+                                </span>
+                                <span class="theme-toggle-label" data-theme-label>Light</span>
+                            </button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -35,180 +44,235 @@
             <section class="portfolio-block projects-cards">
                 <div class="container">
                     <!-- Start: portfolio heading -->
-                    <div class="heading"><h2>Recent Work</h2></div>
+                    <div class="heading"><h2>Selected Projects</h2></div>
                     <!-- End: portfolio heading -->
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project31_2.png" alt="Card Image"></a>
+                                <a href="https://github.com/Nijaoui-Wassim/solar-site-feasibility-multi-agents" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/1758548669387.jpeg" alt="Solar Site Feasibility project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Social Media Analysis for Market Predictions</a></h6>
-                                    <p class="text-muted card-text">•	Using 4 different AI models, the idea is to scan what people are discussing about a given company X for the past y days.</p>
+                                    <h6><a href="https://github.com/Nijaoui-Wassim/solar-site-feasibility-multi-agents" target="_blank" rel="noopener noreferrer">Solar Site Feasibility - Multi-Agent PoC</a></h6>
+                                    <p class="text-muted card-text">A Streamlit and LangGraph proof of concept that evaluates one or more addresses, runs modular agents for policy, permitting, irradiance, economics, grid, and risk signals, and returns a feasibility score, Go/No-Go decision, and permit checklist PDF.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project8.gif" alt="Card Image"></a>
+                                <a href="https://youtu.be/71_7_JhuBxg" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/insightwear-necklace.jpg" alt="InsightWearAI smart necklace project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Plotting datasets of n dimension</a></h6>
-                                    <p class="text-muted card-text">•	Plotting and visualizing any high dimensional dataset in 3D.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project16.png" alt="Card Image"></a>
-                                <div class="card-body">
-                                    <h6><a href="#">AlloGenie</a></h6>
-                                    <p class="text-muted card-text">•	Community page example design using Figma. Dev using React and Django.</p>
+                                    <h6><a href="https://youtu.be/71_7_JhuBxg" target="_blank" rel="noopener noreferrer">InsightWearAI - Smart Necklace</a></h6>
+                                    <p class="text-muted card-text">Assistive AI hardware product designed to help visually impaired users navigate independently through an AI-powered necklace, embedded sensing, and custom perception models. The startup won 6+ competitions and innovation awards.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project17.png" alt="Card Image"></a>
+                                <a href="https://www.linkedin.com/company/parklive-app/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/parklive.jpeg" alt="Parklive project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Geniework</a></h6>
-                                    <p class="text-muted card-text">•	Toy website to match workers and employers. Dev using React and Django.</p>
+                                    <h6><a href="https://www.linkedin.com/company/parklive-app/posts/?feedView=all" target="_blank" rel="noopener noreferrer">Parklive</a></h6>
+                                    <p class="text-muted card-text">Assisted parking product for the Montreal area that helps users find nearby available parking and understand street signage, with work focused on route optimization and product logic.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project18.gif" alt="Card Image"></a>
+                                <a href="https://github.com/Nijaoui-Wassim/social-media-market-prediction" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project31_2.png" alt="Social Media Analysis project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Semantic Segmentation</a></h6>
-                                    <p class="text-muted card-text">•	Worked on semantic segmentation for road related datasets such as Camvid and Cityscapes.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project22.png" alt="Card Image"></a>
-                                <div class="card-body">
-                                    <h6><a href="#">Smart Bin</a></h6>
-                                    <p class="text-muted card-text">•	Arduino Nano and a Raspberry Pi with Python to control the electronics, preprocess the camera inputs and classify the trash types. With a dedicated website that came alongside the hardware system using React and Djang</p>
-                                    <!-- <p class="text-muted card-text">•	Project also included a dedicated website that came alongside the hardware system using React and Django</p> -->
-                                        
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project19.png" alt="Card Image"></a>
-                                <div class="card-body">
-                                    <h6><a href="#">Energy Disaggregation project</a></h6>
-                                    <p class="text-muted card-text">•	Capture consumer behavior and use that to improve model's prediction.</p>
+                                    <h6><a href="https://github.com/Nijaoui-Wassim/social-media-market-prediction" target="_blank" rel="noopener noreferrer">Social Media Analysis for Market Predictions</a></h6>
+                                    <p class="text-muted card-text">System using four AI models to scan what people discuss about a company over a configurable time window and extract sentiment and trend signals for market prediction.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project25.jpg" alt="Card Image"></a>
+                                <a href="https://www.smartenv.ca/" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project25.jpg" alt="Air Quality Monitoring System project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Air Quality project</a></h6>
-                                    <p class="text-muted card-text">•	3D printed Cases, costum built Air Quality monitor with multiple sensor, helped people building it.</p>
+                                    <h6><a href="https://www.smartenv.ca/" target="_blank" rel="noopener noreferrer">Air Quality Monitoring System</a></h6>
+                                    <p class="text-muted card-text">Custom hardware and AI monitoring platform for real-time air quality analytics, device deployment, and downstream occupancy estimation using RGB, thermal, and environmental data.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project26.png" alt="Card Image"></a>
+                                <a href="https://github.com/Nijaoui-Wassim/chained-semantic-segmentation" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project18.gif" alt="Semantic segmentation project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Positive Vibes project</a></h6>
-                                    <p class="text-muted card-text">•	Chatboot that replies to sad people on facebook and youtube with positive costum replies.</p>
+                                    <h6><a href="https://github.com/Nijaoui-Wassim/chained-semantic-segmentation" target="_blank" rel="noopener noreferrer">Multi-Model Chained Semantic Segmentation</a></h6>
+                                    <p class="text-muted card-text">Multi-model segmentation pipeline for road-scene datasets such as CamVid and Cityscapes, using chained predictions to improve accuracy on difficult classes.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project10.png" alt="Card Image"></a>
+                                <a href="https://link.springer.com/chapter/10.1007/978-981-96-7036-9_13" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/prediction-intervals-nilm.png" alt="Prediction Intervals for NILM project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Ticket-no-Ticket project</a></h6>
-                                    <p class="text-muted card-text">•	Detect traffic violations using AI (Python). It’s a rule-based model that relies on predefined rules on what is considered as a traffic violation.</p>
+                                    <h6><a href="https://link.springer.com/chapter/10.1007/978-981-96-7036-9_13" target="_blank" rel="noopener noreferrer">Prediction Intervals for NILM</a></h6>
+                                    <p class="text-muted card-text">Behavior-aware energy disaggregation work that uses prediction intervals to improve uncertainty handling and appliance-level performance in non-intrusive load monitoring.</p>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://www.youtube.com/watch?v=_-vLRq0EABw&ab_channel=WassimNijaoui" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project22.png" alt="SmartBin project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://www.youtube.com/watch?v=_-vLRq0EABw&ab_channel=WassimNijaoui" target="_blank" rel="noopener noreferrer">SmartBin</a></h6>
+                                    <p class="text-muted card-text">Waste-classification system combining embedded electronics, camera preprocessing, classification logic, and a dedicated React and Django web interface.</p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://www.youtube.com/watch?v=93qYg03TMyU&ab_channel=WassimNijaoui" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/traffic-sign-detection.jpg" alt="Traffic sign detection project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://www.youtube.com/watch?v=93qYg03TMyU&ab_channel=WassimNijaoui" target="_blank" rel="noopener noreferrer">AI for Traffic Sign Detection and Depth Estimation</a></h6>
+                                    <p class="text-muted card-text">Computer vision system that detects and classifies traffic signs with deep learning and estimates the distance to each sign from a single image.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <img class="card-img-top scale-on-hover fit-img" src="assets/projects/project16.png" alt="AlloGenie project image">
+                                <div class="card-body">
+                                    <h6>AlloGenie</h6>
+                                    <p class="text-muted card-text">Platform that matches skilled workers with people looking for help on a specific task through video calls or arranged meetings directly on the platform.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://github.com/Nijaoui-Wassim/Plotting_Dimensionality_Reduction" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project8.gif" alt="3D plotting engine project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://github.com/Nijaoui-Wassim/Plotting_Dimensionality_Reduction" target="_blank" rel="noopener noreferrer">3D Plotting Engine</a></h6>
+                                    <p class="text-muted card-text">Python and PyGame engine for plotting high-dimensional datasets in 3D, including dimensionality-reduction workflows and custom PCA and clustering support.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://youtu.be/Or0pVTYx87o" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project26.png" alt="PositiveVibes project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://youtu.be/Or0pVTYx87o" target="_blank" rel="noopener noreferrer">PositiveVibes - GPT-2 Positive Reply Bot</a></h6>
+                                    <p class="text-muted card-text">Early generative AI bot that collects social posts and generates positive replies for people expressing distress across Facebook, YouTube, and other platforms.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
 
                     <!-- Start: portfolio heading -->
-                    <div class="heading"><h2>Other Projects</h2></div>
+                    <div class="heading"><h2>Additional Projects</h2></div>
                     <!-- End: portfolio heading -->
                     <div class="row">
-
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/gif.gif" alt="Card Image"></a>
+                                <a href="https://github.com/Nijaoui-Wassim/single-point-3D-scanner" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/custom-3d-scanner.jpeg" alt="Custom 3D scanner project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Omrike</a></h6>
-                                    <p class="text-muted card-text">•	The goal of the project was to evaluate your photos and arrange them according to your appearance using AI (Python) with a phone like interfrace from scratch.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project21.png" alt="Card Image"></a>
-                                <div class="card-body">
-                                    <h6><a href="#">kuzushiji-recognition</a></h6>
-                                    <p class="text-muted card-text">•	kuzushiji-recognition Kaggle competition The competition / dataset can be found here:  <a href="https://www.kaggle.com/c/kuzushiji-recognition">Github Link</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project29.png" alt="Card Image"></a>
-                                <div class="card-body">
-                                    <h6><a href="#">Jane Market Street Predictions</a></h6>
-                                    <p class="text-muted card-text">•	Tested different Statistical and Deep Learning techniques to help decide market decisions</p>
+                                    <h6><a href="https://github.com/Nijaoui-Wassim/single-point-3D-scanner" target="_blank" rel="noopener noreferrer">Custom 3D Scanner</a></h6>
+                                    <p class="text-muted card-text">Single-point Ladar 3D scanner built from scratch, including the sensing math, hardware integration, and data acquisition pipeline.</p>
                                 </div>
                             </div>
                         </div>
 
-
-
                         <div class="col-md-6 col-lg-4">
                             <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project12.jpg" alt="Card Image"></a>
+                                <a href="https://www.youtube.com/watch?v=Wq9SjvXQQpA&list=PL7OTJ6vsix6suxh0M38jqTL-l93iMaaPy&index=3&ab_channel=F%C3%89RIQUE" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/insightwear-gloves.jpg" alt="InsightWearAI smart gloves project image"></a>
                                 <div class="card-body">
-                                    <h6><a href="#">Watchout project</a></h6>
-                                    <p class="text-muted card-text">•	Driver assistant that also monitors other drivers to assure safe roads.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project15.png" alt="Card Image"></a>
-                                <div class="card-body">
-                                    <h6><a href="#">Shopping Website</a></h6>
-                                    <p class="text-muted card-text">•	Amazon style website development. repository can be found here:  <a href="https://github.com/darealstyl/TeamJ-soen341project2022">Github Link</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card border-0">
-                                <a href="#"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project30.png" alt="Card Image"></a>
-                                <div class="card-body">
-                                    <h6><a href="#">Citiations-finder</a></h6>
-                                    <p class="text-muted card-text">•	python script that can find all the paraphrases that you took from different papers. repository can be found here:  <a href="https://github.com/Nijaoui-Wassim/Citations-finder">Github Link</a></p>
+                                    <h6><a href="https://www.youtube.com/watch?v=Wq9SjvXQQpA&list=PL7OTJ6vsix6suxh0M38jqTL-l93iMaaPy&index=3&ab_channel=F%C3%89RIQUE" target="_blank" rel="noopener noreferrer">InsightWearAI - Smart Gloves</a></h6>
+                                    <p class="text-muted card-text">Assistive AI gloves designed to help blind users identify and locate specific objects in front of them using custom vision models and embedded hardware.</p>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7186115051706028033/" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/timely-dashboard.webp" alt="Timely project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://www.linkedin.com/feed/update/urn:li:activity:7186115051706028033/" target="_blank" rel="noopener noreferrer">Timely</a></h6>
+                                    <p class="text-muted card-text">Data-focused product work centered on analyzing large datasets with Python and Pandas and shaping the outputs into usable product insights.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://github.com/Nijaoui-Wassim/ai-photo-ranking" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/gif.gif" alt="AI Photo Ranking App project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://github.com/Nijaoui-Wassim/ai-photo-ranking" target="_blank" rel="noopener noreferrer">AI Photo Ranking App</a></h6>
+                                    <p class="text-muted card-text">Custom phone-like interface that evaluates and ranks user photos with AI-driven scoring and visual feedback.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://www.kaggle.com/competitions/kuzushiji-recognition" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project21.png" alt="Kuzushiji Recognition competition image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://www.kaggle.com/competitions/kuzushiji-recognition" target="_blank" rel="noopener noreferrer">Kaggle Competition: Kuzushiji Recognition</a></h6>
+                                    <p class="text-muted card-text">Deep learning competition work focused on recognizing historical Japanese characters from image data.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://www.kaggle.com/competitions/jane-street-market-prediction" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project29.png" alt="Jane Street Market Prediction competition image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://www.kaggle.com/competitions/jane-street-market-prediction" target="_blank" rel="noopener noreferrer">Kaggle Competition: Jane Street Market Prediction</a></h6>
+                                    <p class="text-muted card-text">Experimented with statistical and deep learning approaches for market prediction under noisy real-world competition data.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <img class="card-img-top scale-on-hover fit-img" src="assets/projects/project12.jpg" alt="Watchout project image">
+                                <div class="card-body">
+                                    <h6>Watchout</h6>
+                                    <p class="text-muted card-text">Driver-assistance concept that monitors surrounding traffic conditions and other drivers to support safer road decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://github.com/darealstyl/TeamJ-soen341project2022" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project15.png" alt="Shopping website project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://github.com/darealstyl/TeamJ-soen341project2022" target="_blank" rel="noopener noreferrer">Shopping Website</a></h6>
+                                    <p class="text-muted card-text">Amazon-style e-commerce web application built as a full-stack software engineering project.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <a href="https://github.com/Nijaoui-Wassim/Citations-finder" target="_blank" rel="noopener noreferrer"><img class="card-img-top scale-on-hover fit-img" src="assets/projects/project30.png" alt="Citations Finder project image"></a>
+                                <div class="card-body">
+                                    <h6><a href="https://github.com/Nijaoui-Wassim/Citations-finder" target="_blank" rel="noopener noreferrer">Citations Finder</a></h6>
+                                    <p class="text-muted card-text">Python tool for locating paraphrased content across source papers and tracing the likely originating references.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <img class="card-img-top scale-on-hover fit-img" src="assets/projects/project10.png" alt="Ticket-no-Ticket project image">
+                                <div class="card-body">
+                                    <h6>Ticket-no-Ticket</h6>
+                                    <p class="text-muted card-text">Rule-based AI concept for identifying traffic violations by combining scene understanding with predefined enforcement logic.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -253,20 +317,26 @@
         </main>
         <footer class="page-footer">
             <div class="container">
-                <div class="links">
-                    <a href="#">About me</a>
-                    <a href="#">Contact me</a>
-                    <a href="#">Projects</a>
-                </div>
-                <div class="social-icons">
-                    <a href="#"><i class="icon ion-social-facebook"></i></a>
-                    <a href="#"><i class="icon ion-social-instagram-outline"></i></a>
-                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <div class="footer-shell">
+                    <div class="footer-row">
+                        <p class="footer-copy">A broader archive of AI, research, and software projects.</p>
+                        <div class="footer-links">
+                            <a href="index.html">Home</a>
+                            <a href="cv.html">CV</a>
+                            <a href="mailto:wassimnijaoui@gmail.com">Email</a>
+                        </div>
+                        <div class="footer-socials">
+                            <a href="https://github.com/Nijaoui-Wassim" aria-label="GitHub"><i class="icon ion-social-github"></i></a>
+                            <a href="https://www.linkedin.com/in/wassim-nijaoui-335522153/" aria-label="LinkedIn"><i class="icon ion-social-linkedin"></i></a>
+                            <a href="mailto:wassimnijaoui@gmail.com" aria-label="Email"><i class="icon ion-at"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
         <script src="assets/js/script.min.js?h=93ba179fa52dd72fece483aba133cf5f"></script>
+        <script src="assets/js/theme-toggle.js"></script>
     </body>
     </html>
